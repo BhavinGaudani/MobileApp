@@ -47,7 +47,7 @@ var app = {
 					alert("Error occurred while creating the table.");
 			});
 			
-			var networkState = navigator.network.connection.type;
+			var networkState = navigator.connection.type;
 
 		        var states = {};
 		        states[Connection.UNKNOWN]  = 'Unknown connection';
